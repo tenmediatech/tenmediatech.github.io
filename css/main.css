@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -37,6 +37,59 @@
   color: #777777;
   font-weight: 300;
 }
+
+/* body {
+	background: #222;
+	margin: 0rem;
+	min-height: 100vh;
+	font-family: Futura, sans-serif;
+} */
+
+/* CSS for moving background */
+/* #canvas, #text {
+	position: absolute;
+	display: block;
+	top: -60%;
+	left: -70%;
+	/* z-index: -1; */
+/* }
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #42f4b3;
+  text-transform: uppercase;
+  font-size: 8vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+/* #text h1 {
+	opacity: 0.9
+}  */
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+} */
+canvas{
+    /* background-color: #000; */
+    position: absolute;
+  	display: block;
+  	top: -70%;
+  	left: -70%;
+    color: #80f441;
+    opacity: 1;
+}
+/* END of CSS for moving background */
 
 body {
   color: #777777;
@@ -129,7 +182,7 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 h2, .h2 {
@@ -2094,7 +2147,7 @@ body {
 }
 
 .banner-content h1 {
-  font-size: 120px;
+  font-size: 90px;
   font-weight: 100;
   line-height: 1.25em;
   color: #fff;
@@ -2105,6 +2158,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 3px;
+  margin: 0px auto 20px auto;
 }
 
 @media (max-width: 768px) {
