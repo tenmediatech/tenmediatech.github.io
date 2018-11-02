@@ -509,7 +509,7 @@ td, th {
 }
 
 .pt-100 {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .pt-150 {
@@ -565,7 +565,7 @@ td, th {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .pb-150 {
@@ -1978,7 +1978,9 @@ nav a:hover {
 }
 
 body {
-  background: #4b379a;
+  /* background: #4b379a; */
+  background-image: url('../img/backcode.png');
+  /* background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-407982.png'); */
 }
 
 .main-wrapper-first {
@@ -2031,7 +2033,7 @@ body {
 
 .p1-gradient-bg, .primary-btn:after, .overlay-bg, .owl-dot.active, .service-area .single-service .overlay-content {
   background-image: -moz-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
-  background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+  background-image: -webkit-linear-gradient(0deg, #07679b 0%, #000 100%);
   background-image: -ms-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
 }
 
@@ -2173,7 +2175,7 @@ body {
 }
 
 .overlay-bg {
-  opacity: .9;
+  opacity: .6;
 }
 
 .genric-banner {
@@ -2245,7 +2247,7 @@ body {
 
 .parallux-area .overlay-bg {
   background: #222;
-  opacity: .3;
+  opacity: .8;
 }
 
 .parallux-area h2 {
