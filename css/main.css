@@ -110,6 +110,10 @@ select {
   display: block;
 }
 
+.skills-icon {
+  font-size: 90px;
+}
+
 figure {
   margin: 0;
 }
@@ -799,7 +803,8 @@ td, th {
   font-size: 24px;
 }
 
-b, i, sup, sub, u, del {
+/* Deleted i from here */
+b, sup, sub, u, del {
   color: #6cbb23;
 }
 
@@ -2247,7 +2252,7 @@ body {
 
 .parallux-area .overlay-bg {
   background: #222;
-  opacity: .8;
+  opacity: .7;
 }
 
 .parallux-area h2 {
@@ -2284,7 +2289,7 @@ body {
 }
 
 .service-area .single-service .overlay-content {
-  opacity: .8;
+  /* opacity: .8; */
   padding: 30px;
   display: -webkit-box;
   display: -webkit-flex;
