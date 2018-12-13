@@ -1984,7 +1984,12 @@ nav a:hover {
 
 body {
   /* background: #4b379a; */
-  background-image: url('../img/backcode.png');
+  /* background-image: url('../img/backcode.png') no-repeat center fixed; */
+  background: url('../img/backcode.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   /* background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-407982.png'); */
 }
 
@@ -2252,7 +2257,7 @@ body {
 
 .parallux-area .overlay-bg {
   background: #222;
-  opacity: .7;
+  opacity: .9;
 }
 
 .parallux-area h2 {
@@ -2272,7 +2277,7 @@ body {
 }
 
 .service-area {
-  padding: 90px 0 120px 0;
+  padding: 50px 0 60px 0;
   background: #fff;
 }
 
@@ -2518,7 +2523,7 @@ body {
 
 .footer-area {
   background: #222222;
-  padding: 100px 0;
+  padding: 42px 0;
   margin-bottom: 6rem;
 }
 
@@ -2606,4 +2611,8 @@ body {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.skills-icon {
+  margin-left: 30px;
 }
